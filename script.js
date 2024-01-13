@@ -33,9 +33,6 @@ function createTimer(time_in_seconds){
         console.log("workinng");
     
         if(time_in_seconds<=0){
-            
-            let audio=new Audio(audio.mp3);
-            audio.play();
             clearInterval(timeInterval);
 
             const end_msg=document.createElement("div");
